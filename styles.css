@@ -1,0 +1,83 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Calibri, sans-serif;
+  font-size: 0.8rem;
+  padding: 3em 3em;
+  margin: 0;
+}
+
+body * + * {
+  margin-top: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+  margin: 0;
+}
+
+@page {
+  size: auto;
+  margin: 0mm;
+}
+
+.resume {
+  display: flex;
+}
+
+.description {
+  text-align: justify;
+}
+
+.description.personal {
+  margin-top: 1em;
+}
+
+.job .description {
+  font-size: 0.875rem;
+}
+
+footer {
+  font-size: 0.8rem;
+  color: #333;
+  padding: 0 2em;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column--left {
+  width: 35%;
+}
+
+.column--right {
+  width: 65%;
+  margin-top: 0;
+}
+
+.abilities__list li {
+  margin-top: 0.25em;
+}
+
+.photo {
+  width: 180px;
+  height: 180px;
+}
+
+.job + .job {
+  margin-top: 1.5em;
+}
