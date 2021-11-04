@@ -76,6 +76,8 @@ footer {
 .photo {
   width: 180px;
   height: 180px;
+  border-radius: 50%;
+  margin-bottom: 1em;
 }
 
 .job + .job {
